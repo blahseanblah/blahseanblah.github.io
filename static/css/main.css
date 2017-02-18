@@ -135,9 +135,6 @@ hr {
     border: none;
     background-color: white;
     height: 10px;
-    width: 1170px;
-    /* margin-left: 100px; */
-    /* margin-right: 100px; */
 }
 
 #map {
@@ -159,4 +156,10 @@ hr {
     color: white;
     background-color: #231F20;
     border-color: white;
+}
+
+@media (max-width: 990px) {
+    hr {
+        display: none;
+    }
 }
